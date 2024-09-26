@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&family=La+Belle+Aurore&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #4e7cb2;
+    margin:auto 0;
+    max-width: 100%;
+}
+
+header {
+    text-align:center;
+    margin-top: 15%;
+}
+
+header img:hover {
+    opacity: 0.6;
+}
+
+header h1{
+    position:relative;
+    bottom: 90px;
+    color:white;
+}
+
+h1 {
+    font-family: "La Belle Aurore", cursive;
+    font-size: 45px;
+}
+
+h4 {
+    font-family: "Kumbh Sans", sans-serif;
+    color:#E049A7;
+    padding-left: 30px;
+}
+
+#friends {
+    border-width: 5px;
+    border-color: #E049A7;
+    border-style: dotted;
+    border-radius: 10px;
+}
+
+#friendpages {
+    font-size: 35px;
+    padding: 10px;
+    border-radius: 10px;
+    color:#4e7cb2;
+    text-align: center;
+}
+
+nav {
+    background-color: antiquewhite;
+    max-width: 25%;
+    min-width: 25%;
+    padding: 3%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+
+nav img{ 
+    max-width: 100%;
+}
+
+nav img:hover {
+    opacity: 0.6;
+}
+
+main {
+    max-width: 65%;
+    margin-left: 30%;
+    padding: 3%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 20px;
+    max-width: 45%;
+    min-width: 30%;
+    background-color: #E7A0CC;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+p {
+    font-family: "Kumbh Sans", sans-serif;
+    text-align: center;
+}
+
+section p {
+    background-color: white;
+    border-radius: 10px;
+    font-family: "Kumbh Sans", sans-serif;
+    max-width: 250px;
+    padding:10px;
+    margin:auto;
+    margin-top: 10px;
+}
+
+footer {
+    max-width: 65%;
+    margin-left: 30%;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+div {
+    border-width: 10px;
+    border-style: dotted;
+    border-color:#E049A7
+}
+
+footer h2 {
+    font-family: "La Belle Aurore", cursive;
+    text-align:center;
+    color:#4e7cb2;
+    font-size: 35px;
+}
+
+footer h4 {
+    text-align: center;
+    color: black
+}
+
+#clickhere {
+    text-decoration: underline;
+    color:#E049A7
+}
+
+#linked {
+    background-color: #E049A7;
+    text-align: center;
+    margin-left: 80%;
+    color:white;
+    padding: 10px;
+    border-radius: 10px;
+    position: relative;
+    right: 10px;
+}
+
+#watched {
+    background-color: crimson;
+}
+
+#congrats {
+    color: white;
+    text-align: center;
+    font-size: 60px;
+}
+
+#watchingyou {
+    font-family: "Kumbh Sans", sans-serif;
+    font-size: 200px;
+    position: relative;
+    bottom: 100px;
+    text-align: center;
+}
+
+#watched a {
+    color:white;
+}
