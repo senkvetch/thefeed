@@ -6,7 +6,7 @@
 
 
 body {
-    background-image: url(/img/laceback.png);
+    background-image: url(../img/laceback.png);
     margin:auto 0;
     max-width: 100%;
 }
