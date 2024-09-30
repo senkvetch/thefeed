@@ -6,7 +6,7 @@
 
 
 body {
-    background-color: #4e7cb2;
+    background-image: url(/img/laceback.png);
     margin:auto 0;
     max-width: 100%;
 }
@@ -23,7 +23,10 @@ header img:hover {
 header h1{
     position:relative;
     bottom: 90px;
-    color:white;
+    background-color: antiquewhite;
+    width: 250px;
+    margin: auto;
+    border-radius: 10px;
 }
 
 h1 {
@@ -149,6 +152,7 @@ footer h4 {
 
 #watched {
     background-color: crimson;
+    background-image:none;
 }
 
 #congrats {
