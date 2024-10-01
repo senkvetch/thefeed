@@ -47,6 +47,14 @@ h4 {
     border-radius: 10px;
 }
 
+#friends a{
+    text-decoration: none;
+}
+
+#friends h4:hover{
+    color:#4e7cb2;
+}
+
 #friendpages {
     font-size: 35px;
     padding: 10px;
@@ -67,7 +75,8 @@ nav {
 }
 
 nav img{ 
-    max-width: 100%;
+    max-width: 90%;
+    margin:auto;
 }
 
 nav img:hover {
